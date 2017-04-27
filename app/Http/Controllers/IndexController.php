@@ -5,12 +5,14 @@ namespace App\Http\Controllers;
 use App\Models\Article;
 use App\Models\Authentication;
 use App\Models\Category;
+use App\Models\XmqGroup;
 use App\Models\Comment;
 use App\Models\Exchange;
 use App\Models\FriendshipLink;
 use App\Models\Goods;
 use App\Models\Notice;
 use App\Models\Question;
+use App\Models\XmqTopic;
 use App\Models\Recommendation;
 use App\Models\Setting;
 use App\Models\Tag;
@@ -219,6 +221,43 @@ class IndexController extends Controller
         $goods = Goods::where('status','>',0)->where('remnants','>',0)->orderBy('coins','asc')->paginate(16);
         $exchanges = Exchange::newest();
         return view('theme::home.shop')->with(compact('goods','exchanges'));
+    }
+
+    /*问答模块*/
+    public function xmqtopic($categorySlug='all',$filter='newest')
+    {
+
+        $question = new XmqTopic();
+        if(!method_exists($question,$filter)){
+            abort(404);
+        }
+
+        $currentCategoryId = 0;
+        if( $categorySlug != 'all' ){
+            $category = XmqGroup::where("group_id","=",$categorySlug)->first();
+            if(!$category){
+                abort(404);
+            }
+            $currentCategoryId = $category->group_id;
+        }
+
+        $questions =  call_user_func([$question,$filter] , $currentCategoryId );
+
+        /*热门话题*/
+        //$hotTags =  Taggable::globalHotTags('questions');
+        $hotTags = [];
+
+        $categories = load_group('all');
+        // $categories = [];
+        $hotUsers = Cache::remember('xmq_hot_topic',Setting()->get('website_cache_time',1),function() {
+            return  UserData::activities(8);
+        });
+        return view('theme::home.xmqtopic')->with(compact('questions','hotUsers','hotTags','filter','categories','currentCategoryId','categorySlug'));
+    }
+
+    public function mianze()
+    {
+        return view('theme::home.mianze');
     }
 
 }

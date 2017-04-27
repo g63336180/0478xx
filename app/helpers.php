@@ -151,6 +151,15 @@ if (! function_exists('load_categories')) {
 
 }
 
+/*数据库Category表操作*/
+if (! function_exists('load_group')) {
+
+    function load_group( $type = 'all' ){
+        return app('App\Models\XmqGroup')->loadFromCache($type);
+    }
+
+}
+
 
 /*数据库area地区表操作*/
 if (! function_exists('Area')) {

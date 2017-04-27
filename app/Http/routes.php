@@ -13,9 +13,14 @@ Route::Group(['namespace'=>'Installer','middleware'=>'installer'],function(){
 
 /*首页*/
 Route::get('/',['as'=>'website.index','uses'=>'IndexController@index']);
+Route::get('/mianzeshengming',['as'=>'website.mianze','uses'=>'IndexController@mianze']);
+
 
 /*问答*/
 Route::get('/questions/{category_name?}/{filter?}',['as'=>'website.ask','uses'=>'IndexController@ask'])->where(['filter'=>'(newest|hottest|reward|unAnswered)']);
+
+/*问答*/
+Route::get('/xmq/{category_name?}/{filter?}',['as'=>'website.xmq','uses'=>'IndexController@xmqtopic'])->where(['filter'=>'(newest|hottest|reward|unAnswered)']);
 
 /*标签*/
 Route::get('/topics/{category_name?}',['as'=>'website.topic','uses'=>'IndexController@topic']);
@@ -221,10 +226,16 @@ Route::Group(['namespace'=>'Ask'],function(){
 
 });
 
+Route::Group(['namespace' => 'Xmq'], function(){
+    /*问题查看*/
+    Route::get('xmqtopic/{id}',['as'=>'xmq.topic.detail','uses'=>'TopicController@detail'])->where(['id'=>'[0-9]+']);
+    /*问答*/
+    Route::get('/xmq/{group_id?}/{filter?}',['as'=>'website.xmq','uses'=>'IndexController@xmqtopic'])->where(['filter'=>'(newest|hottest|reward|unAnswered)']);
+});
+
 
 /*文章模块*/
 Route::Group(['namespace'=>'Blog'],function(){
-
     /*文章查看*/
     Route::get('article/{id}',['as'=>'blog.article.detail','uses'=>'ArticleController@show'])->where(['id'=>'[0-9]+']);
 

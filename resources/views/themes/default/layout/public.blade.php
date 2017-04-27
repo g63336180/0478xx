@@ -143,7 +143,10 @@
         <div class="text-center">
             <a href="{{ route('website.index') }}">{{ Setting()->get('website_name') }}</a><span class="span-line">|</span>
             <a href="mailto:{{ Setting()->get('website_admin_email') }}" target="_blank">联系我们</a><span class="span-line">|</span>
+            <a href="{{ route('website.mianze') }}">免责声明</a><span class="span-line">|</span>
             <a href="http://www.miibeian.gov.cn" target="_blank">{{ Setting()->get('website_icp') }}</a>
+        </div>
+        <div class="text-center">
         </div>
         <div class="copyright mt-10">
             Powered By <a href="http://www.0478xinxi.com" target="_blank">外贸乎</a> Release {{ config('tipask.release') }} ©2009-{{ gmdate('Y') }} 0478xinxi.com
