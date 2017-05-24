@@ -104,7 +104,7 @@ class XmqGroup extends Model
 
     public static function loadFromCache($type='all'){
 
-        $globalCategories = Cache::rememberForever('global_all_groups_2',function() {
+        $globalCategories = Cache::rememberForever('global_all_groups_17051102',function() {
             return self::where('status','=',1)->orderBy('sort','asc')->orderBy('created_at','asc')->get();
         });
 
