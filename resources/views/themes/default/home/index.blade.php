@@ -147,7 +147,17 @@
                     @endforeach
                 </ul>
             </div>
-
+            <div class="widget-box">
+                <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                <!-- 0478首页 -->
+                <ins class="adsbygoogle"
+                     style="display:inline-block;width:250px;height:250px"
+                     data-ad-client="ca-pub-5111314925833181"
+                     data-ad-slot="1422758368"></ins>
+                <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
+            </div>
             <div class="widget-box">
                 <h2 class="h4 widget-box-title">热议话题 <a href="{{ route('website.topic') }}" title="更多">»</a></h2>
                 <ul class="taglist-inline multi">

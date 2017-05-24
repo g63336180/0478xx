@@ -1,0 +1,198 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"last_filter": "in",
+		"selected_items":
+		[
+			[
+				"in",
+				"Package Control: Install Package→安装插件"
+			],
+			[
+				"i",
+				"Package Control: Install Package→安装插件"
+			]
+		],
+		"width": 594.0
+	},
+	"console":
+	{
+		"height": 146.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/E/webroot/0478xx"
+	],
+	"file_history":
+	[
+		"/E/webroot/0478xx/server.php",
+		"/C/Wnmp/conf/nginx.conf",
+		"/C/Wnmp/conf/vhosts/dailian.tt.conf",
+		"/E/webroot/pythonTest/README.md",
+		"/C/Users/Administrator/Downloads/opencart/tbs.php",
+		"/C/Users/Administrator/Downloads/opencart/locoy_oc.php",
+		"/E/workdocument/server_config.txt",
+		"/E/workdocument/Adsense入门/01+Introduction/互联网赚钱之道.txt",
+		"/E/Program Files/米18/2017-5-23.txt",
+		"/C/Users/Administrator/Downloads/第四节的插件/第四节的插件/中文帐号的信息/第四次跳转的域名        waihuii.info/index.html",
+		"/C/Users/Administrator/Downloads/第四节的插件/第四节的插件/中文帐号的信息/第三次跳转的域名     forex9.info/transfer/configureTool.php",
+		"/C/Users/Administrator/Downloads/第四节的插件/第四节的插件/中文帐号的信息/第三次跳转的域名     forex9.info/transfer/common_function.php",
+		"/C/Users/Administrator/Downloads/第四节的插件/第四节的插件/中文帐号的信息/第三次跳转的域名     forex9.info/transfer/pc.txt",
+		"/C/Users/Administrator/Downloads/第四节的插件/第四节的插件/中文帐号的信息/第二次跳转的域名       googlea.info/transfer/pc.txt",
+		"/C/Users/Administrator/Downloads/第四节的插件/第四节的插件/中文帐号的信息/第一次跳转的域名        gg8.info/transfer/my-errors.log",
+		"/C/Users/Administrator/Downloads/第四节的插件/第四节的插件/中文帐号的信息/第一次跳转的域名        gg8.info/transfer/pc.txt",
+		"/C/Users/Administrator/Downloads/第四节的插件/第四节的插件/中文帐号的信息/第一次跳转的域名        gg8.info/transfer/articles/ecommerce.html",
+		"/C/Users/Administrator/Downloads/第四节的插件/第四节的插件/中文帐号的信息/第一次跳转的域名        gg8.info/transfer/articles/ecommerce2.html",
+		"/C/Windows/System32/drivers/etc/hosts"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"80",
+			"//",
+			"root"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "0478xx.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
