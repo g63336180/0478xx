@@ -48,10 +48,22 @@
 	},
 	"expanded_folders":
 	[
-		"/E/webroot/0478xx"
+		"/E/webroot/0478xx/app",
+		"/E/webroot/0478xx/public",
+		"/E/webroot/0478xx/resources"
 	],
 	"file_history":
 	[
+		"/E/webroot/ekooo.cn/a.php",
+		"/E/webroot/ekooo.cn/a.html",
+		"/E/webroot/ekooo.cn/.htaccess",
+		"/E/webroot/0478xx/resources/views/themes/default/home/index.blade.php",
+		"/C/Users/Administrator/Desktop/开发需求.txt",
+		"/E/workdocument/Wordpress/ekooo.cn/account.txt",
+		"/C/Users/Administrator/Desktop/开发需求1.txt",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/C/Wnmp/conf/vhosts/ekooo.cn.conf",
+		"/E/webroot/ekooo.cn/index.php",
 		"/E/webroot/0478xx/server.php",
 		"/C/Wnmp/conf/nginx.conf",
 		"/C/Wnmp/conf/vhosts/dailian.tt.conf",
@@ -69,8 +81,7 @@
 		"/C/Users/Administrator/Downloads/第四节的插件/第四节的插件/中文帐号的信息/第一次跳转的域名        gg8.info/transfer/my-errors.log",
 		"/C/Users/Administrator/Downloads/第四节的插件/第四节的插件/中文帐号的信息/第一次跳转的域名        gg8.info/transfer/pc.txt",
 		"/C/Users/Administrator/Downloads/第四节的插件/第四节的插件/中文帐号的信息/第一次跳转的域名        gg8.info/transfer/articles/ecommerce.html",
-		"/C/Users/Administrator/Downloads/第四节的插件/第四节的插件/中文帐号的信息/第一次跳转的域名        gg8.info/transfer/articles/ecommerce2.html",
-		"/C/Windows/System32/drivers/etc/hosts"
+		"/C/Users/Administrator/Downloads/第四节的插件/第四节的插件/中文帐号的信息/第一次跳转的域名        gg8.info/transfer/articles/ecommerce2.html"
 	],
 	"find":
 	{
@@ -88,6 +99,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			":$]",
+			"1",
+			"] ",
+			"dailian",
 			"80",
 			"//",
 			"root"
@@ -190,7 +205,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 150.0,
+	"side_bar_width": 219.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
